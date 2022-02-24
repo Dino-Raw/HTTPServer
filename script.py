@@ -139,7 +139,7 @@ def search_max_pop(cities):
     latitude = 0
     longitude = 0
     timezone = ""
-    q = 0
+
     for city in cities:
         if maxPop < int(city[-5]):
             maxPop = int(city[-5])
